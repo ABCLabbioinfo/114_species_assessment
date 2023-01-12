@@ -1,0 +1,115 @@
+species	domain	kingdom	phylum	class	order	family	genus
+acanthochromis polyacanthus	Eukaryota	Metazoa	Chordata	Actinopteri		Pomacentridae	Acanthochromis
+ailuropoda melanoleuca	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Ursidae	Ailuropoda
+amphilophus citrinellus	Eukaryota	Metazoa	Chordata	Actinopteri	Cichliformes	Cichlidae	Amphilophus
+amphiprion ocellaris	Eukaryota	Metazoa	Chordata	Actinopteri		Pomacentridae	Amphiprion
+anas platyrhynchos	Eukaryota	Metazoa	Chordata	Aves	Anseriformes	Anatidae	Anas
+anolis carolinensis	Eukaryota	Metazoa	Chordata	Lepidosauria	Squamata	Dactyloidae	Anolis
+astatotilapia calliptera	Eukaryota	Metazoa	Chordata	Actinopteri	Cichliformes	Cichlidae	Astatotilapia
+callithrix jacchus	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Cebidae	Callithrix
+canis lupus familiaris	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Canidae	Canis
+capra hircus	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Capra
+ciona intestinalis	Eukaryota	Metazoa	Chordata	Ascidiacea	Phlebobranchia	Cionidae	Ciona
+cyanistes caeruleus	Eukaryota	Metazoa	Chordata	Aves	Passeriformes	Paridae	Cyanistes
+cyclopterus lumpus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Cyclopteridae	Cyclopterus
+cyprinodon variegatus	Eukaryota	Metazoa	Chordata	Actinopteri	Cyprinodontiformes	Cyprinodontidae	Cyprinodon
+dromaius novaehollandiae	Eukaryota	Metazoa	Chordata	Aves	Casuariiformes	Dromaiidae	Dromaius
+drosophila melanogaster	Eukaryota	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila
+rhinolophus ferrumequinum	Eukaryota	Metazoa	Chordata	Mammalia	Chiroptera	Rhinolophidae	Rhinolophus
+rhinopithecus roxellana	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Cercopithecidae	Rhinopithecus
+saccharomyces cerevisiae	Eukaryota	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Saccharomyces
+salmo trutta	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo
+sander lucioperca	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Percidae	Sander
+seriola dumerili	Eukaryota	Metazoa	Chordata	Actinopteri	Carangiformes	Carangidae	Seriola
+sparus aurata	Eukaryota	Metazoa	Chordata	Actinopteri	Spariformes	Sparidae	Sparus
+sus scrofa	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Suidae	Sus
+taeniopygia guttata	Eukaryota	Metazoa	Chordata	Aves	Passeriformes	Estrildidae	Taeniopygia
+tupaia belangeri	Eukaryota	Metazoa	Chordata	Mammalia	Scandentia	Tupaiidae	Tupaia
+rattus norvegicus	Eukaryota	Metazoa	Chordata	Mammalia	Rodentia	Muridae	Rattus
+poecilia reticulata	Eukaryota	Metazoa	Chordata	Actinopteri	Cyprinodontiformes	Poeciliidae	Poecilia
+poecilia mexicana	Eukaryota	Metazoa	Chordata	Actinopteri	Cyprinodontiformes	Poeciliidae	Poecilia
+oncorhynchus mykiss	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus
+piliocolobus tephrosceles	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Cercopithecidae	Piliocolobus
+petromyzon marinus	Eukaryota	Metazoa	Chordata	Hyperoartia	Petromyzontiformes	Petromyzontidae	Petromyzon
+pan troglodytes	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Pan
+papio anubis	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Cercopithecidae	Papio
+ovis aries	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Ovis
+amphiprion percula	Eukaryota	Metazoa	Chordata	Actinopteri		Pomacentridae	Amphiprion
+anser cygnoides	Eukaryota	Metazoa	Chordata	Aves	Anseriformes	Anatidae	Anser
+astyanax mexicanus	Eukaryota	Metazoa	Chordata	Actinopteri	Characiformes	Characidae	Astyanax
+betta splendens	Eukaryota	Metazoa	Chordata	Actinopteri	Anabantiformes	Osphronemidae	Betta
+bos grunniens	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos
+bos mutus	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos
+bos taurus	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos
+camelus dromedarius	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Camelidae	Camelus
+carassius auratus	Eukaryota	Metazoa	Chordata	Actinopteri	Cypriniformes	Cyprinidae	Carassius
+castor canadensis	Eukaryota	Metazoa	Chordata	Mammalia	Rodentia	Castoridae	Castor
+ciona savignyi	Eukaryota	Metazoa	Chordata	Ascidiacea	Phlebobranchia	Cionidae	Ciona
+danio rerio	Eukaryota	Metazoa	Chordata	Actinopteri	Cypriniformes	Danionidae	Danio
+dicentrarchus labrax	Eukaryota	Metazoa	Chordata	Actinopteri		Moronidae	Dicentrarchus
+ficedula albicollis	Eukaryota	Metazoa	Chordata	Aves	Passeriformes	Muscicapidae	Ficedula
+fukomys damarensis	Eukaryota	Metazoa	Chordata	Mammalia	Rodentia	Bathyergidae	Fukomys
+fundulus heteroclitus	Eukaryota	Metazoa	Chordata	Actinopteri	Cyprinodontiformes	Fundulidae	Fundulus
+gadus morhua	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus
+gasterosteus aculeatus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus
+haplochromis burtoni	Eukaryota	Metazoa	Chordata	Actinopteri	Cichliformes	Cichlidae	Haplochromis
+ictalurus punctatus	Eukaryota	Metazoa	Chordata	Actinopteri	Siluriformes	Ictaluridae	Ictalurus
+ictidomys tridecemlineatus	Eukaryota	Metazoa	Chordata	Mammalia	Rodentia	Sciuridae	Ictidomys
+kryptolebias marmoratus	Eukaryota	Metazoa	Chordata	Actinopteri	Cyprinodontiformes	Rivulidae	Kryptolebias
+labrus bergylta	Eukaryota	Metazoa	Chordata	Actinopteri	Labriformes	Labridae	Labrus
+larimichthys crocea	Eukaryota	Metazoa	Chordata	Actinopteri		Sciaenidae	Larimichthys
+lates calcarifer	Eukaryota	Metazoa	Chordata	Actinopteri		Centropomidae	Lates
+leptobrachium leishanense	Eukaryota	Metazoa	Chordata	Amphibia	Anura	Megophryidae	Leptobrachium
+macaca fascicularis	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Cercopithecidae	Macaca
+macaca mulatta	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Cercopithecidae	Macaca
+macaca nemestrina	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Cercopithecidae	Macaca
+mastacembelus armatus	Eukaryota	Metazoa	Chordata	Actinopteri	Synbranchiformes	Mastacembelidae	Mastacembelus
+meleagris gallopavo	Eukaryota	Metazoa	Chordata	Aves	Galliformes	Phasianidae	Meleagris
+meriones unguiculatus	Eukaryota	Metazoa	Chordata	Mammalia	Rodentia	Muridae	Meriones
+mesocricetus auratus	Eukaryota	Metazoa	Chordata	Mammalia	Rodentia	Cricetidae	Mesocricetus
+monodelphis domestica	Eukaryota	Metazoa	Chordata	Mammalia	Didelphimorphia	Didelphidae	Monodelphis
+monopterus albus	Eukaryota	Metazoa	Chordata	Actinopteri	Synbranchiformes	Synbranchidae	Monopterus
+mus musculus	Eukaryota	Metazoa	Chordata	Mammalia	Rodentia	Muridae	Mus
+mus spretus	Eukaryota	Metazoa	Chordata	Mammalia	Rodentia	Muridae	Mus
+mustela putorius furo	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Mustelidae	Mustela
+myotis lucifugus	Eukaryota	Metazoa	Chordata	Mammalia	Chiroptera	Vespertilionidae	Myotis
+neolamprologus brichardi	Eukaryota	Metazoa	Chordata	Actinopteri	Cichliformes	Cichlidae	Neolamprologus
+nothobranchius furzeri	Eukaryota	Metazoa	Chordata	Actinopteri	Cyprinodontiformes	Nothobranchiidae	Nothobranchius
+numida meleagris	Eukaryota	Metazoa	Chordata	Aves	Galliformes	Numididae	Numida
+oncorhynchus kisutch	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus
+oncorhynchus tshawytscha	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus
+oreochromis niloticus	Eukaryota	Metazoa	Chordata	Actinopteri	Cichliformes	Cichlidae	Oreochromis
+oryctolagus cuniculus	Eukaryota	Metazoa	Chordata	Mammalia	Lagomorpha	Leporidae	Oryctolagus
+oryzias latipes	Eukaryota	Metazoa	Chordata	Actinopteri	Beloniformes	Adrianichthyidae	Oryzias
+phascolarctos cinereus	Eukaryota	Metazoa	Chordata	Mammalia	Diprotodontia	Phascolarctidae	Phascolarctos
+pogona vitticeps	Eukaryota	Metazoa	Chordata	Lepidosauria	Squamata	Agamidae	Pogona
+pundamilia nyererei	Eukaryota	Metazoa	Chordata	Actinopteri	Cichliformes	Cichlidae	Pundamilia
+tursiops truncatus	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Delphinidae	Tursiops
+ursus maritimus	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Ursidae	Ursus
+xenopus tropicalis	Eukaryota	Metazoa	Chordata	Amphibia	Anura	Pipidae	Xenopus
+xiphophorus maculatus	Eukaryota	Metazoa	Chordata	Actinopteri	Cyprinodontiformes	Poeciliidae	Xiphophorus
+zonotrichia albicollis	Eukaryota	Metazoa	Chordata	Aves	Passeriformes	Passerellidae	Zonotrichia
+arabidopsis thaliana	Eukaryota	Viridiplantae	Streptophyta	Magnoliopsida	Brassicales	Brassicaceae	Arabidopsis
+homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo
+salmo salar	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo
+sarcophilus harrisii	Eukaryota	Metazoa	Chordata	Mammalia	Dasyuromorphia	Dasyuridae	Sarcophilus
+scophthalmus maximus	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Scophthalmidae	Scophthalmus
+takifugu rubripes	Eukaryota	Metazoa	Chordata	Actinopteri	Tetraodontiformes	Tetraodontidae	Takifugu
+cavia porcellus	Eukaryota	Metazoa	Chordata	Mammalia	Rodentia	Caviidae	Cavia
+cercocebus atys	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Cercopithecidae	Cercocebus
+chinchilla lanigera	Eukaryota	Metazoa	Chordata	Mammalia	Rodentia	Chinchillidae	Chinchilla
+chlorocebus sabaeus	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Cercopithecidae	Chlorocebus
+coturnix japonica	Eukaryota	Metazoa	Chordata	Aves	Galliformes	Phasianidae	Coturnix
+cynoglossus semilaevis	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Cynoglossidae	Cynoglossus
+cyprinus carpio carpio	Eukaryota	Metazoa	Chordata	Actinopteri	Cypriniformes	Cyprinidae	Cyprinus
+equus caballus	Eukaryota	Metazoa	Chordata	Mammalia	Perissodactyla	Equidae	Equus
+esox lucius	Eukaryota	Metazoa	Chordata	Actinopteri	Esociformes	Esocidae	Esox
+felis catus	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Felidae	Felis
+gallus gallus	Eukaryota	Metazoa	Chordata	Aves	Galliformes	Phasianidae	Gallus
+poecilia latipinna	Eukaryota	Metazoa	Chordata	Actinopteri	Cyprinodontiformes	Poeciliidae	Poecilia
+podarcis muralis	Eukaryota	Metazoa	Chordata	Lepidosauria	Squamata	Lacertidae	Podarcis
+paramormyrops kingsleyae	Eukaryota	Metazoa	Chordata	Actinopteri	Osteoglossiformes	Mormyridae	Paramormyrops
+parus major	Eukaryota	Metazoa	Chordata	Aves	Passeriformes	Paridae	Parus
+pelodiscus sinensis	Eukaryota	Metazoa	Chordata	Reptilia	Testudines	Trionychidae	Pelodiscus
+pan paniscus	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Pan
+oryzias melastigma	Eukaryota	Metazoa	Chordata	Actinopteri	Beloniformes	Adrianichthyidae	Oryzias

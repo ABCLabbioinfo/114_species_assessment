@@ -1,0 +1,14 @@
+label	color
+Human & Mouse	#980122
+Livestock animals	#F23920
+Insecta	#6391A9
+Mammalia	#F7D899
+Hyperoartia	#989BA0
+Aves	#BFCDA5
+Magnoliopsida	#A4BAAF
+Lepidosauria	#6FC181
+Amphibia	#BBAFD1
+Saccharomycetes	#BCA183
+Reptilia	#8E91C0
+Actinopteri	#ECB295
+Ascidiacea	#9AD4D5
