@@ -23,7 +23,7 @@ This repositiory include source codes for study **"Benchmark study for evaluatin
 
 **Assembly_statistics.txt**: The assembly statistics getting from European Nucleotide Archive (ENA) of reference genome in 109 species was included.
 
-**Gene_annotation_table.txt**: This table includes gene annotation from BIOMART, and result of principal component analysis with different types of genes in 102 species.
+**Gene_annotation_table.txt**: This table includes gene annotation from Ensembl BioMart, and result of principal component analysis with different types of genes in 102 species.
 
 **MQI_statistics_of_108_species.csv**: Mapping quality evaluation index (MQI) information including mapping statistics of RNA-Sequencing analysis was included. 
 

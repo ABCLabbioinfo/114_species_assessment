@@ -7,7 +7,7 @@ pacakges <- c("dplyr","ggplot2","data.table","stringr","readr","janitor","corrpl
 pacman::p_load(pacakges,character.only = TRUE)
 
 
-#### Step 4-1. Correlation between gene annotation and 3 quality evaluation indicators obtained empirically in the quantification process. ####
+#### Step 4-1. Correlation between gene annotation and 3 quality evaluation indicators obtained empirically in the quantification process ####
 
 
 
@@ -187,7 +187,7 @@ SC
 
 
 
-#### Step 4-5. Relation ship between Transcript's diversity and quantification rate, a quantitative quality evaluation index ####
+#### Step 4-5. Relationship between Transcript's diversity and quantification rate, a quantitative quality evaluation index ####
 
 
 
@@ -224,7 +224,7 @@ plot
 ggsave(filename = paste0("Figure5E.pdf"),plot,width=25,height=15)
 
 
-#### Step 4-6. Differences of QQI in all species. ####
+#### Step 4-6. Differences of QQI in all species ####
 
 data <- fread("Data/RNASeq_quantification_data_sample.csv")
 data$Species <- as.factor(data$Species)

@@ -53,7 +53,7 @@ corrplot.mixed(temp,
 
 
 
-#### Step 1-2. The number of panned gaps in genome of 109 species ####
+#### Step 1-2. The number of spanned gaps in genome of 109 species ####
 
 ggplot(data=data,aes(x=organism,y=data$`Number of spanned gaps`,color=organism))+
   geom_jitter(aes(color=organism), 
@@ -126,7 +126,7 @@ ggplot(data=data,aes(x=organism,y=data$`Adjusted N50 in contig`,color=organism))
   theme(legend.position="none")
 
 
-#### Step 1-5. Correlation between length of repeat elements and genome size in sepcies ####
+#### Step 1-5. Correlation between length of repeat elements and genome size in species ####
 
 ggplot(data=data,aes(x=data$`Genome size`,data$`Length of masekd repeat elements`,color=organism))+
   geom_point(size=5)+
