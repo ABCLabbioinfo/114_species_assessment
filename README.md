@@ -25,7 +25,7 @@ This repositiory include source codes for study **"Benchmark study for evaluatin
 
 **Gene_annotation_table.txt**: This table includes gene annotation from BIOMART, and result of principal component analysis with different types of genes in 102 species.
 
-**MQI_statistics_of_108_samples.csv**: Mapping quality evaluation index (MQI) information including mapping statistics of RNA-Sequencing analysis was included. 
+**MQI_statistics_of_108_species.csv**: Mapping quality evaluation index (MQI) information including mapping statistics of RNA-Sequencing analysis was included. 
 
 **Repeat_elements_data.txt**: Repeat elements and proportion was saved in this file. Repeat elements was resulted from RepeatMasker.
 
