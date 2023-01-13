@@ -153,7 +153,7 @@ SC <- round(cor(data[,y],data[,x],method="spearman"),3)
 
 #### Step 2-3. Differences in newly proposed MQI values in 108 species ####
 
-data <- read.csv("Data/MQI_statistics_of_108_samples.csv")
+data <- read.csv("Data/MQI_statistics_of_108_species.csv")
 data <- data %>% mutate(Species=as.factor(Species))
 color <- paletteer::paletteer_d("ggthemes::stata_s2color")[c(1,2,3,4,6,5,8,9,14,10,7,11,13)]
 

@@ -1,6 +1,6 @@
 # Repository description
 
-This repositiory include source codes for study **"Benchmark study for evaluating the quality of reference genomes and gene annotations in 114 species"**
+This repositiory include source codes for study **"Benchmark study for evaluating the quality of reference genomes and gene annotations in 114 species" submitted to the Frontiers in Veterinary Science (Under review)**
 
 # Script
 **1_Comparison_assembly_statistics_for_select_of_quality_index.R**: Script for comparison of assembly statistics for selection of effective indicators for genome quality evaluation of various species relatively.
@@ -36,3 +36,6 @@ This repositiory include source codes for study **"Benchmark study for evaluatin
 **Selected_assembly_and_mapping_statistics_data.csv**: Data with assembly statistics and mapping statistics was saved.
 
 **Assembly_color_code.txt, Annotation_color_code.txt**: Figure color codes for assembly and annotation.
+
+# Citation
+TBA
