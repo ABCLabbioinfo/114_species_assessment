@@ -12,6 +12,8 @@ This repositiory include source codes for study **"Benchmark study for evaluatin
 
 **4_Selection_of_effective_indicator_in_quantification_process**: Script for contents of investigation of quantifiaction step in RNA-Sequencing analysis and gene annotation quality.
 
+**5_NGS_applicable_index.R**: Script for heatmap with NGS applicable index and polygon chart.
+
 
 
 
@@ -34,6 +36,8 @@ This repositiory include source codes for study **"Benchmark study for evaluatin
 **RNASeq_quantification_data_sample.csv**: Effective qunatification statistics for assessment of quantification step was included in 3,060 RNA-Sequenicng samples.
 
 **Selected_assembly_and_mapping_statistics_data.csv**: Data with assembly statistics and mapping statistics was saved.
+
+**Applicable_index_with_96_species.csv**: The table included 10 effective statistics for assessement of genome assembly and gene annotation with NGS applicable index.
 
 **Assembly_color_code.txt, Annotation_color_code.txt**: Figure color codes for assembly and annotation.
 
