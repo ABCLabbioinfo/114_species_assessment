@@ -5,7 +5,7 @@ if(!require("bit64")){
   install.packages("bit64")
 }
 
-if(!require(pacman)){
+if(!require("pacman")){
   install.packages("pacman")
 }
 
