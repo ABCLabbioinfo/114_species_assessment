@@ -1,5 +1,6 @@
 
 #### Step 4 Selection of empirical effective indicators in the quantification process and investigation of correlation with complexity of transcripts in annotation for quality evaluation of gene annotation in diverse species ####
+setRepositories(ind=1:7)
 
 ## Load library
 library(pacman)

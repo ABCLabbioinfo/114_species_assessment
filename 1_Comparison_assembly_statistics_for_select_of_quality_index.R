@@ -1,4 +1,5 @@
-
+setRepositories(ind=1:7)
+library(bit64)
 library(ggplot2)
 library(data.table)
 library(ggcorrplot)
@@ -9,6 +10,7 @@ library(pafr)
 library(ggdendro)
 library(plotly)
 library(ggheatmap)
+
 
 #### Step 1-1. Investigation of correlation between assembly statistics and repeat elements for selection of effective quality index ####
 

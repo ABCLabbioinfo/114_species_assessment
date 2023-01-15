@@ -1,4 +1,5 @@
 #### Step 3. Evaluation of gene annotation quality based on transcript's diversity ####
+setRepositories(ind=1:7)
 library(data.table)
 library(dplyr)
 library(stringr)

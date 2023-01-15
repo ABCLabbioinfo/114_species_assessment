@@ -1,5 +1,7 @@
 #### Step 2 Investigation of association relationship between assembly statistics and empirical effective indicators obtained in the mapping step for genome quality evaluation ####
+setRepositories(ind=1:7)
 library(pacman)
+library(bit64)
 pacakges <- c("dplyr","ggplot2","data.table","stringr","readr","janitor","corrplot","pheatmap","ggdendro","plotly","pryr","MASS","ggpmisc","ggrepel","RColorBrewer")
 pacman::p_load(pacakges,character.only = TRUE)
 
