@@ -5,7 +5,7 @@ source("Package_manager.R")
 
 data <- fread("Data/Assembly_statistics.txt")
 
-# Remove Salmo trutta that no repeat elemtns species #
+# Remove species that no repeat elements #
 data <- data[-which(is.na(data$`Proportion of repeat elements`)),]
 
 color.df <- fread("Data/Assembly_color_code.txt")
