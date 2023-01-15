@@ -3,6 +3,7 @@
 
 source("Package_manager.R")
 
+data <- read.csv("Data/Applicable_index_with_96_species.csv",stringsAsFactors = F)
 colnames(data) <- c("Species","Class","Label","Uniquely mapped rate (%)","1 - Unmapped rate (%)","1 - Multiple mapped rate (%)","Quant. success rate","Quant. failure (No feature; %)","Quant. failure (Ambiguity; %)","Scaled transcript diversity PCA","Scaled adj. N50 in contig","Scaled adj. N50 in scaffold","Scaled non spanned gaps rates","NGS applicability index")
 # Figure setting
 color <- paletteer::paletteer_d("ggthemes::stata_s2color")[c(1,2,3,4,6,5,8,14,10,7,11,13)]
