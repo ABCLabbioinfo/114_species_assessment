@@ -3,6 +3,8 @@
 This repositiory include source codes for study **"Benchmark study for evaluating the quality of reference genomes and gene annotations in 114 species" submitted to the Frontiers in Veterinary Science (Under review)**
 
 # Script
+**Package_manager.R**: This script is for installation and calling for required packages for this scripts. **You don't need to run this script.**
+
 **1_Comparison_assembly_statistics_for_select_of_quality_index.R**: Script for comparison of assembly statistics for selection of effective indicators for genome quality evaluation of various species relatively.
 
 **2_Relationship_assembly_statistics_and_mapping_statistics.R**: Script for inestigating assembly statisitcs and mapping statistics result from RNA-Sequencing data.

@@ -1,12 +1,4 @@
-
-#### Step 4 Selection of empirical effective indicators in the quantification process and investigation of correlation with complexity of transcripts in annotation for quality evaluation of gene annotation in diverse species ####
-setRepositories(ind=1:7)
-
-## Load library
-# library(pacman)
-# pacakges <- c("dplyr","ggplot2","data.table","stringr","readr","janitor","corrplot","pheatmap","pryr","MASS","ggpmisc","ggrepel","corrplot","corrr","dplyr","scales")
-# pacman::p_load(pacakges,character.only = TRUE)
-source("0_Package_manager.R")
+source("Package_manager.R")
 
 #### Step 4-1. Correlation between gene annotation and 3 quality evaluation indicators obtained empirically in the quantification process ####
 
