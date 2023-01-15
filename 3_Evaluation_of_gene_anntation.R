@@ -1,19 +1,20 @@
 #### Step 3. Evaluation of gene annotation quality based on transcript's diversity ####
-setRepositories(ind=1:7)
-library(data.table)
-library(dplyr)
-library(stringr)
-library(ggplot2)
-library(DescTools)
-library(ggfortify)
-library(ggrepel)
-library(gridExtra)
-library(grid)
-library(paletteer)
-library(ggpubr)
-library(cowplot)
+# setRepositories(ind=1:7)
+# library(data.table)
+# library(dplyr)
+# library(stringr)
+# library(ggplot2)
+# library(DescTools)
+# library(ggfortify)
+# library(ggrepel)
+# library(gridExtra)
+# library(grid)
+# library(paletteer)
+# library(ggpubr)
+# library(cowplot)
 
 
+source("0_Package_manager.R")
 
 #### Step 3-1. Investigation of types of transcripts in 102 species ####
 

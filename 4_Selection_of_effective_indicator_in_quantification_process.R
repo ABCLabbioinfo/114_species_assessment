@@ -3,10 +3,10 @@
 setRepositories(ind=1:7)
 
 ## Load library
-library(pacman)
-pacakges <- c("dplyr","ggplot2","data.table","stringr","readr","janitor","corrplot","pheatmap","pryr","MASS","ggpmisc","ggrepel","corrplot","corrr","dplyr","scales")
-pacman::p_load(pacakges,character.only = TRUE)
-
+# library(pacman)
+# pacakges <- c("dplyr","ggplot2","data.table","stringr","readr","janitor","corrplot","pheatmap","pryr","MASS","ggpmisc","ggrepel","corrplot","corrr","dplyr","scales")
+# pacman::p_load(pacakges,character.only = TRUE)
+source("0_Package_manager.R")
 
 #### Step 4-1. Correlation between gene annotation and 3 quality evaluation indicators obtained empirically in the quantification process ####
 

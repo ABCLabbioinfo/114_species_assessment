@@ -1,13 +1,15 @@
 
 #### Script for heatmap with NGS applicable index and polygon chart ####
-setRepositories(ind=1:7)
-## Load library
-library(pacman)
-pacakges <- c("dplyr","ggplot2","data.table","stringr","readr","janitor","corrplot","pheatmap","pryr","MASS","ggpmisc","ggrepel","RColorBrewer","fmsb") 
+# setRepositories(ind=1:7)
+# ## Load library
+# library(pacman)
+# pacakges <- c("dplyr","ggplot2","data.table","stringr","readr","janitor","corrplot","pheatmap","pryr","MASS","ggpmisc","ggrepel","RColorBrewer","fmsb") 
+# 
+# pacman::p_load(pacakges,character.only = TRUE)
+# 
+# data <- read.csv("Data/Applicable_index_with_96_species.csv",stringsAsFactors = TRUE)
 
-pacman::p_load(pacakges,character.only = TRUE)
-
-data <- read.csv("Data/Applicable_index_with_96_species.csv",stringsAsFactors = TRUE)
+source("0_Package_manager.R")
 
 colnames(data) <- c("Species","Class","Label","Uniquely mapped rate (%)","1 - Unmapped rate (%)","1 - Multiple mapped rate (%)","Quant. success rate","Quant. failure (No feature; %)","Quant. failure (Ambiguity; %)","Scaled transcript diversity PCA","Scaled adj. N50 in contig","Scaled adj. N50 in scaffold","Scaled non spanned gaps rates","NGS applicability index")
 # Figure setting
@@ -39,7 +41,7 @@ plt3 <- pheatmap(data.1,cluster_rows = FALSE,
                  fontsize_row=32,
                  fontsize_col=32,
                  color = colorRampPalette(c("#2B3467","#BAD7E9","#FCFFE7","#EB455F"))(100),
-                 display_numbers = data.1$`NGS applicability index`)
+                 display_numbers = T)
 
 
 
