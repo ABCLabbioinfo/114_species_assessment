@@ -3,11 +3,8 @@
 setRepositories(ind=1:7)
 ## Load library
 library(pacman)
-pacakges <- c("dplyr","ggplot2","data.table","stringr","readr","janitor","corrplot","pheatmap","pryr","MASS","ggpmisc","ggrepel","RColorBrewer","ggradar","fmsb") 
+pacakges <- c("dplyr","ggplot2","data.table","stringr","readr","janitor","corrplot","pheatmap","pryr","MASS","ggpmisc","ggrepel","RColorBrewer","fmsb") 
 
-# If you can't install ggradar run below command
-
-#remotes::install_github("ricardo-bion/ggradar")
 pacman::p_load(pacakges,character.only = TRUE)
 
 data <- read.csv("Data/Applicable_index_with_96_species.csv",stringsAsFactors = TRUE)
