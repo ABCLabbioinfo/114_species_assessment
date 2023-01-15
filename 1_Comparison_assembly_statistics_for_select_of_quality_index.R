@@ -4,6 +4,10 @@ source("Package_manager.R")
 #### Step 1-1. Investigation of correlation between assembly statistics and repeat elements for selection of effective quality index ####
 
 data <- fread("Data/Assembly_statistics.txt")
+
+# Remove Salmo trutta that no repeat elemtns species #
+data <- data[-which(is.na(data$`Proportion of repeat elements`)),]
+
 color.df <- fread("Data/Assembly_color_code.txt")
 color <- color.df$color
 names(color) <- color.df$label
@@ -45,6 +49,25 @@ corrplot.mixed(temp,
 
 
 #### Step 1-2. The number of spanned gaps in genome of 109 species ####
+data <- fread("Data/Assembly_statistics.txt")
+
+color.df <- fread("Data/Assembly_color_code.txt")
+color <- color.df$color
+names(color) <- color.df$label
+
+
+data$organism[which(data$organism=="Livestock")] <- "Livestock animals"
+levels <- data$organism[-which(grepl(data$organism,pattern="Human & Mouse|Livestock animals"))]
+data$organism <- factor(data$organism,levels=c("Human & Mouse","Livestock animals",unique(levels)))
+
+
+data$`Number of spanned gaps` <- data$`Number of spanned gaps`/1
+data$`Length of masekd repeat elements` <- data$`Length of masekd repeat elements`/1
+data$`Genome size` <- data$`Genome size`/1
+data$`Ungapped base pair` <- data$`Ungapped base pair`/1
+data$`Adjusted N50 in scaffold` <- data$`Adjusted N50 in scaffold`/1
+data$`Adjusted N50 in contig` <- data$`Adjusted N50 in contig`/1
+
 
 ggplot(data=data,aes(x=organism,y=data$`Number of spanned gaps`,color=organism))+
   geom_jitter(aes(color=organism), 
@@ -118,6 +141,31 @@ ggplot(data=data,aes(x=organism,y=data$`Adjusted N50 in contig`,color=organism))
 
 
 #### Step 1-5. Correlation between length of repeat elements and genome size in species ####
+
+data <- fread("Data/Assembly_statistics.txt")
+
+# Remove Salmo trutta that no repeat elemtns species #
+data <- data[-which(is.na(data$`Proportion of repeat elements`)),]
+
+color.df <- fread("Data/Assembly_color_code.txt")
+color <- color.df$color
+names(color) <- color.df$label
+
+
+data$organism[which(data$organism=="Livestock")] <- "Livestock animals"
+levels <- data$organism[-which(grepl(data$organism,pattern="Human & Mouse|Livestock animals"))]
+data$organism <- factor(data$organism,levels=c("Human & Mouse","Livestock animals",unique(levels)))
+
+
+data$`Number of spanned gaps` <- data$`Number of spanned gaps`/1
+data$`Length of masekd repeat elements` <- data$`Length of masekd repeat elements`/1
+data$`Genome size` <- data$`Genome size`/1
+data$`Ungapped base pair` <- data$`Ungapped base pair`/1
+data$`Adjusted N50 in scaffold` <- data$`Adjusted N50 in scaffold`/1
+data$`Adjusted N50 in contig` <- data$`Adjusted N50 in contig`/1
+
+
+
 
 ggplot(data=data,aes(x=data$`Genome size`,data$`Length of masekd repeat elements`,color=organism))+
   geom_point(size=5)+
