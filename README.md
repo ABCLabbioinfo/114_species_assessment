@@ -39,11 +39,11 @@ This repositiory include source codes for study **"Benchmark study for evaluatin
 
 **Selected_assembly_and_mapping_statistics_data.csv**: Data with assembly statistics and mapping statistics was saved.
 
-**Applicable_index_with_96_species.csv**: The table included 10 effective statistics for assessement of genome assembly and gene annotation with NGS applicable index.
+**Applicable_index_with_97_species.csv**: The table included 10 effective statistics for assessement of genome assembly and gene annotation with NGS applicable index.
 
 **Assembly_color_code.txt, Annotation_color_code.txt**: Figure color codes for assembly and annotation.
 
-![Figure 6_corrected_psw](https://user-images.githubusercontent.com/122352598/212577964-d50353da-be58-4609-a98b-5e45986699ee.jpg)
+![Figure 6_corrected_psw](https://user-images.githubusercontent.com/122352598/212760190-5a3e63fc-d24f-439c-b9a5-06d7b126875d.jpg)
 
 # Citation
 TBA
