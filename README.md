@@ -1,6 +1,6 @@
 # Repository description
 
-This repositiory include source codes for study **"Benchmark study for evaluating the quality of reference genomes and gene annotations in 114 species" submitted to the Frontiers in Veterinary Science (Under review)**
+This repositiory include source codes for study **"Benchmark study for evaluating the quality of reference genomes and gene annotations in 114 species"** submitted to the Frontiers in Veterinary Science (Under review)
 
 # Script
 **Package_manager.R**: This script is for installation and calling for required packages for this scripts. **You don't need to run this script.**
