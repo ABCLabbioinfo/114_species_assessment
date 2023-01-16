@@ -43,7 +43,7 @@ This repositiory include source codes for study **"Benchmark study for evaluatin
 
 **Assembly_color_code.txt, Annotation_color_code.txt**: Figure color codes for assembly and annotation.
 
-![Figure 6_corrected_psw](https://user-images.githubusercontent.com/122352598/212572976-4afc19dd-e376-4922-bd96-a6ef09aeeaa6.jpg)
+![Figure 6_corrected_psw](https://user-images.githubusercontent.com/122352598/212577964-d50353da-be58-4609-a98b-5e45986699ee.jpg)
 
 # Citation
 TBA
