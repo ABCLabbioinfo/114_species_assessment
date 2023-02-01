@@ -39,7 +39,7 @@ This repositiory include source codes for study **"Benchmark study for evaluatin
 
 **RNASeq_quantification_data_sample.csv**: Effective qunatification statistics for assessment of quantification step was included in 3,060 RNA-Sequenicng samples.
 
-**Data/Example_data/**: There is files including hisat2 log files and quantification summary files for calculation of quantification rate.
+**Data/Example_data/**: There are log files including hisat2 and quantification summary files for calculation of quantification rate.
 
 **Selected_assembly_and_mapping_statistics_data.csv**: Data with assembly statistics and mapping statistics was saved.
 

@@ -1,4 +1,4 @@
-#### This script for calculation of quantification rate. We found mistakes in calculation of quantification, so we corrected calculation method for quantification rate. Below script was calcuate of quantification rate for just one species ####
+#### This script for calculation of quantification rate. We found mistakes in calculation of quantification, so we corrected calculation method for quantification rate. Below script was calculate of quantification rate for just one species ####
 
 source("Package_manager.R")
 
@@ -55,23 +55,22 @@ for (each in files){
 HisatStat <- Reduce(function(df1,df2) merge(df1,df2,all=TRUE),totalList)
 
 
-
 ### Calculation of quantification rate part ###
 
-
-# Calculation method before correction of quantification rate #
+##### Calculation method before correction of quantification rate #######
 # Quant.rate #
 # Total_paired_reads variable is total reads of each samples #
-mean(GeneStat$Gene_Assigned_rate/(as.numeric(HisatStat$Total_paired_reads)*2)) 
+# mean(GeneStat$Gene_Assigned_rate/(as.numeric(HisatStat$Total_paired_reads)*2)) 
+# 
+# # Quant.rate(Abs) #
+# 1-mean(GeneStat$Gene_Unassigned_NoFeatures_rate/(as.numeric(HisatStat$Total_paired_reads)*2))
+# 
+# # Quant.rate(Amb) #
+# 1-mean(GeneStat$Gene_Unassigned_Ambiguity_rate/(as.numeric(HisatStat$Total_paired_reads)*2))
 
-# Quant.rate(Abs) #
-1-mean(GeneStat$Gene_Unassigned_NoFeatures_rate/(as.numeric(HisatStat$Total_paired_reads)*2))
-
-# Quant.rate(Amb) #
-1-mean(GeneStat$Gene_Unassigned_Ambiguity_rate/(as.numeric(HisatStat$Total_paired_reads)*2))
 
 
-# Calculation method after correction of quantification rate #
+##### Calculation method before correction of quantification rate ######
 # Sum of Gene_Assigned_rate, Gene_Unassigned_Ambiguity_rate and Gene_Unassigned_NoFeatures_Rate variables was mapped reads # 
 
 mean(GeneStat$Gene_Assigned_rate/(as.numeric(GeneStat$Gene_Assigned_rate+GeneStat$Gene_Unassigned_Ambiguity_rate+GeneStat$Gene_Unassigned_NoFeatures_rate)))
