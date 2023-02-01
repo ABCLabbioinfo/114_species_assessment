@@ -9,7 +9,7 @@ colnames(corD) <- gsub("_"," ",colnames(corD))
 
 
 # Remove unnecessary column
-corD <- corD[,-c(1:3,5,6,23)]
+corD <- corD[,-c(1:3)]
 
 ## Pheatmap visualization
 colnames(corD)
@@ -34,8 +34,8 @@ plotData <- reshape2::melt(plotData)
 plotData$value <- round(as.numeric(plotData$value),3)
 
 colors <- c("#f0c648","#f2b95c","#dd7c2f",
-            "#567e6a", "#22523a", "#1f3c35")
-
+                     "#567e6a", "#22523a", "#1f3c35")
+                     
 
 ## Plot ##
 
@@ -59,7 +59,7 @@ Fig5A <- plotData %>% ggplot(aes(x = Var2, y=Var1, fill = value)) +
         axis.title = element_text(size = 20, face = "bold"),
         axis.text.y=element_text(size = 15),
         panel.grid.major = element_blank()
-        )
+  )
 
 Fig5A
 
@@ -216,12 +216,16 @@ plot
 
 ggsave(filename = paste0("Figure5E.pdf"),plot,width=25,height=15)
 
+# Spearman correlation
+SC <- round(cor(data[,"Assigned_rate"],data[,"Transcripts_diversity_PCA"],method="spearman"),3)
+SC
+
+cor(data$Assigned_rate,data$Transcripts_diversity_PCA,method="spearman")
 
 #### Step 4-6. Differences of QQI in all species ####
 
 data <- fread("Data/RNASeq_quantification_data_sample.csv")
 data$Species <- as.factor(data$Species)
-colnames(data) <- gsub("X1.","1-",colnames(data))
 color <- paletteer::paletteer_d("ggthemes::stata_s2color")[c(1,2,3,4,6,5,8,9,14,10,7,11,13)]
 
 # Extract Index info
@@ -236,13 +240,6 @@ subDF <- data %>%
   arrange(desc(avg))
 
 data$Species <- factor(data$Species, levels = unique(subDF$Species))
-
-t<-data %>% 
-  group_by(Species) %>% 
-  summarise(QQI=mean(QQI),
-            Qr=mean(`Quantification rate`),
-            QfA=mean(`1-Quantification failure rate due to ambiguity`),
-            QfNF=mean(`1-Quantification failure rate due to absence of annotation`))
 
 suppressWarnings({
   # Draw figure with categorized by species (*if you aim to categorized by Type, x axis should became Type*)
@@ -266,6 +263,8 @@ suppressWarnings({
 })
 
 fig
+
+mean(data$QQI)
 
 ggsave("Figure5F.pdf",fig,width = 60, height = 13, limitsize = F)
 

@@ -9,25 +9,26 @@ data <- fread("Data/Applicable_index_with_97_species.csv",stringsAsFactors = TRU
 
 
 
-
 data$Species <- sapply(as.character(data$Species),function(x) {paste0(unlist(strsplit(unlist(strsplit(x," "))[1],""))[1],".",unlist(strsplit(x," "))[2])},USE.NAMES = FALSE)
-data <- data %>% arrange(desc(`NGS applicability index`)) 
+data <- data %>% arrange(desc(NGS.applicability.index)) 
 rownames(data) <- data$Species
 data <- data[,-1]
-# colnames(data.1) <- gsub("."," ",colnames(data.1),fixed = TRUE)
+
 
 data<- round(data,4)
 
 data %>% names()
 
-idx <- c("Quant.rate(Amb)","Quant.rate(Abs)","Quant.rate","Transcript's diversity",
+idx <- c("Quant.rate(Amb)","Quant.rate(Abs)","Quant.rate","Transcript.s.diversity",
   "AdjN50Contig","AdjN50Scaffold","UngapRate",
   "MultiMapRate","MapRate","UnimapRate",
-  "NGS applicability index")
+  "NGS.applicability.index")
+
+
 
 data <- data %>% dplyr::select(all_of(idx))
 
-names(data)[names(data) == "Transcript's diversity"] <- "Transcript diversity"
+names(data)[names(data) == "Transcript.s.diversity"] <- "Transcript diversity"
 
 
 plt3 <- pheatmap(data,cluster_rows = FALSE,

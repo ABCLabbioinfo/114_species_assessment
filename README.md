@@ -12,7 +12,9 @@ This repositiory include source codes for study **"Benchmark study for evaluatin
 
 **3_Evaluation_of_gene_anntation.R**: This script is for quality assessment of gene annotation in various species.
 
-**4_Selection_of_effective_indicator_in_quantification_process**: Script for contents of investigation of quantifiaction step in RNA-Sequencing analysis and gene annotation quality.
+**4_Selection_of_effective_indicator_in_quantification_process.R**: Script for contents of investigation of quantifiaction step in RNA-Sequencing analysis and gene annotation quality.
+
+**4-1_Quantification_stat_parser.R**: Example codes for calculation of quantification rate in quantification step. 
 
 **5_NGS_applicable_index.R**: Script for heatmap with NGS applicable index and polygon chart.
 
@@ -37,13 +39,15 @@ This repositiory include source codes for study **"Benchmark study for evaluatin
 
 **RNASeq_quantification_data_sample.csv**: Effective qunatification statistics for assessment of quantification step was included in 3,060 RNA-Sequenicng samples.
 
+**Data/Example_data/**: There is files including hisat2 log files and quantification summary files for calculation of quantification rate.
+
 **Selected_assembly_and_mapping_statistics_data.csv**: Data with assembly statistics and mapping statistics was saved.
 
 **Applicable_index_with_97_species.csv**: The table included 10 effective statistics for assessement of genome assembly and gene annotation with NGS applicable index.
 
 **Assembly_color_code.txt, Annotation_color_code.txt**: Figure color codes for assembly and annotation.
 
-![Figure 6_corrected_psw](https://user-images.githubusercontent.com/122352598/212760190-5a3e63fc-d24f-439c-b9a5-06d7b126875d.jpg)
+![Figure 6_corrected_psw](https://user-images.githubusercontent.com/122352598/215918028-38319204-8156-4a27-bf51-0ee5e4e87bed.jpg)
 
 # Citation
 TBA

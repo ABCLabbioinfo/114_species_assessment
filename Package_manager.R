@@ -11,7 +11,7 @@ if(!require("pacman")){
 
 library(pacman)
 
-packages <- c("BiocManager","dplyr","ggplot2","data.table","stringr","readr","janitor","corrplot","pheatmap","pryr","MASS","ggpmisc","ggrepel","RColorBrewer","fmsb","ggcorrplot","bit64","pafr","ggdendro","plotly","ggpmisc","dplyr","ggplot2","data.table","stringr","readr","janitor","corrplot","pheatmap","ggdendro","plotly","pryr","MASS","ggpmisc","ggrepel","RColorBrewer","dplyr","ggplot2","data.table","stringr","readr","janitor","corrplot","pheatmap","pryr","MASS","ggpmisc","ggrepel","corrplot","corrr","dplyr","scales","data.table","dplyr","DescTools","ggfortify","gridExtra","grid","paletteer","ggpubr","cowplot","reshape2") 
+packages <- c("BiocManager","dplyr","ggplot2","data.table","stringr","readr","janitor","corrplot","pheatmap","pryr","MASS","ggpmisc","ggrepel","RColorBrewer","fmsb","ggcorrplot","bit64","pafr","ggdendro","plotly","ggpmisc","dplyr","ggplot2","data.table","stringr","readr","janitor","corrplot","pheatmap","ggdendro","plotly","pryr","MASS","ggpmisc","ggrepel","RColorBrewer","dplyr","ggplot2","data.table","stringr","readr","janitor","corrplot","pheatmap","pryr","MASS","ggpmisc","ggrepel","corrplot","corrr","dplyr","scales","data.table","dplyr","DescTools","ggfortify","gridExtra","grid","paletteer","ggpubr","cowplot","reshape2","dplyr","ggplot2","data.table","stringr","readr","janitor","rvest") 
 
 packages <- unique(packages)
 
