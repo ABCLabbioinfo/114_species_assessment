@@ -70,7 +70,7 @@ HisatStat <- Reduce(function(df1,df2) merge(df1,df2,all=TRUE),totalList)
 
 
 
-##### Calculation method before correction of quantification rate ######
+##### Calculation method After correction of quantification rate ######
 # Sum of Gene_Assigned_rate, Gene_Unassigned_Ambiguity_rate and Gene_Unassigned_NoFeatures_Rate variables was mapped reads # 
 
 # Quant.rate #
